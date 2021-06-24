@@ -14,10 +14,13 @@ const transactionSchema = new Schema(;
   },
   date: {
     type: Date,
-    default: Date.now
+    defalt: Date.now
     }
   }
 );
-cpmst Tramsactopm
+const Transation = mongoose.model("Transaction", transactionSchema);
+
+
+module.exports = Transaction;
 
 }
